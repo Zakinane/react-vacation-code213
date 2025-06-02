@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  position: fixed;
+  width: 60%;
+  top: 0px;
+  right: 0px;
+  background-color: rgb(3, 191, 116);
+  text-decoration: none;
+  opacity: 0.9;
+  padding: 20px;
+  border-radius: 0px 0px 0px 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: -10px 12px 32px -8px rgba(0,0,0,0.75);
+-webkit-box-shadow: -10px 12px 32px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: -10px 12px 32px -8px rgba(0,0,0,0.75);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
