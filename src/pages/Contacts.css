@@ -1,0 +1,38 @@
+main{
+background: #83f2b5;
+background: linear-gradient(347deg, rgba(131, 242, 181, 0.52) 30%, rgba(255, 255, 255, 0.59) 100%);
+}
+.card{
+box-shadow: -6px 9px 40px -17px rgba(0,0,0,0.75);
+-webkit-box-shadow: -6px 9px 40px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: -6px 9px 40px -17px rgba(0,0,0,0.75);
+    top: 10%;
+    left: 30%;
+    width: calc(40% - 60px);
+    height: calc(80% - 60px);
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    border-radius: 20px;
+    overflow: hidden;
+}
+form{
+    height: 100%;
+}
+input, textarea{
+    border-radius: 5px;
+    border: 2px solid #5c9e7a;
+}
+button{
+    background-color: #58c68a;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1.4em;
+    border: none;
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+}

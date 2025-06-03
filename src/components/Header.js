@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header>
-      <Link className="Country" to="/venice">
+      <Link className="Country" to="/">
         Venice
       </Link>
       <Link className="Country" to="/amsterdam">
